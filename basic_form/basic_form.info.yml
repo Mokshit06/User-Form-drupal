@@ -1,0 +1,5 @@
+name: Basic Form
+description: This is a basic form made using Form API.
+core: 8.x
+package: Form
+type: module

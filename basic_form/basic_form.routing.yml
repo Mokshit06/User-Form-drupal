@@ -1,0 +1,7 @@
+basic.form:
+ path: '/basic/form'
+ defaults:
+  _title: 'User Information Form'
+  _form: '\Drupal\basic_form\Form\BasicForm'
+ requirements:
+  _permission: 'access content'
