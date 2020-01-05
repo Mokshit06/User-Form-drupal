@@ -33,13 +33,13 @@ class BasicForm extends FormBase {
       '#title' => $this->t('Enter your birthdate'),
       '#required' => TRUE,
     ];
-    // Create numeric input for name.
+    // Create numeric input for age.
     $form['age'] = [
       '#type' => 'tel',
       '#title' => $this->t('Enter your age'),
       '#required' => TRUE,
     ];
-    // Create text input for name.
+    // Create selection input for gender.
     $form['gender'] = [
       '#type' => 'select',
       '#title' => $this->t('Choose your Gender'),
